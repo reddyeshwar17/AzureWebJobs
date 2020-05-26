@@ -2,6 +2,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Microsoft.Azure.Documents.Client;
 
 namespace QueueTriggerJobs
 {
@@ -11,10 +12,26 @@ namespace QueueTriggerJobs
         {
             var builder = new HostBuilder();
             //builder.UseEnvironment(EnvironmentName.Development);
+
+            //https://docs.microsoft.com/en-us/azure/app-service/webjobs-sdk-how-to#azure-cosmosdb-trigger-configuration-version-3x
             builder.ConfigureWebJobs(b =>
             {
                 b.AddAzureStorageCoreServices();
-                b.AddAzureStorage();
+                //b.AddAzureStorage();
+                b.AddCosmosDB(a =>
+                {
+                    a.ConnectionMode = ConnectionMode.Gateway;
+                    a.Protocol = Protocol.Https;
+                    a.LeaseOptions.LeasePrefix = "prefix1";
+
+                });
+
+
+                b.AddServiceBus(sbOptions =>
+                {
+                    sbOptions.MessageHandlerOptions.AutoComplete = true;
+                    sbOptions.MessageHandlerOptions.MaxConcurrentCalls = 16;
+                });
             });
             builder.ConfigureLogging((context, b) =>
             {

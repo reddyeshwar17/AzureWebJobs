@@ -1,0 +1,13 @@
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.exe
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.deps.json
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.runtimeconfig.json
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.runtimeconfig.dev.json
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.dll
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\bin\Debug\netcoreapp3.1\DurableFuntions.pdb
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.csprojAssemblyReference.cache
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.AssemblyInfoInputs.cache
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.AssemblyInfo.cs
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.csproj.CoreCompileInputs.cache
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.dll
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.pdb
+C:\CoreMVC\WebJobsSDKs\ConsoleApp1\obj\Debug\netcoreapp3.1\DurableFuntions.genruntimeconfig.cache
